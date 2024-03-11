@@ -1,0 +1,22 @@
+<!-- FILEPATH: /Users/andrew/java/simple-servlet/src/main/webapp/contact.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <p>Feel free to reach out to us!</p>
+    <form action="submit_contact_form" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
